@@ -148,16 +148,16 @@
     
   .card .details .content h2{
     font-weight: 300;
-        font-size: 1em;
+        font-size: 1rem;
     }
     .card .details .content h2 span{
     color: #e21212;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     }
 }
 
 footer {
-    height: 25vh;
+    height: 15vh;
     background-color: #333;
     color: #ffffff;
     font-size: 1rem;
