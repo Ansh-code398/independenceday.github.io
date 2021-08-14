@@ -161,3 +161,7 @@ footer {
 #footer a{
     color: #dbcdcd;
 }
+@media(min-height: 1180){
+    font-size: 0.2rem;
+}
+
