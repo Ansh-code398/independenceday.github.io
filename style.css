@@ -36,34 +36,6 @@
     transition: 1s;
 }
 
-@media(max-width:625px){
-    .card{
-        width: 150px;
-        height: 200px;
-    }
-    .card .details .content h2{
-        text-align: center;
-        font-weight: 350;
-        line-height: 0.5em;
-    }
-    .card .details .content h2 span{
-       font-size: 0.4em;
-    }
-    .card .details .content .social-icons{
-        position: relative;
-        display: flex;
-        margin-top: 5px;
-        
-    }
-    .card .details .content .social-icons a{
-        width: 17.5px;
-        height: 17.5px;
-        margin: 2.5px;
-        font-size: 9px;
-        transition: all 1s;
-    }
-}
-
 .card:hover{
     transform: translateX(50%);
 }
@@ -146,6 +118,44 @@
 .card .details .content .social-icons a:hover{
     background: #e21212;
 }
+
+@media(max-width:625px){
+    .card{
+        width: 150px;
+        height: 200px;
+    }
+    .card .details .content h2{
+        text-align: center;
+        font-weight: 350;
+        line-height: 0.5em;
+    }
+    .card .details .content h2 span{
+       font-size: 0.4em;
+    }
+    .card .details .content .social-icons{
+        position: relative;
+        display: flex;
+        margin-top: 5px;
+        
+    }
+    .card .details .content .social-icons a{
+        width: 17.5px;
+        height: 17.5px;
+        margin: 2.5px;
+        font-size: 9px;
+        transition: all 1s;
+    }
+    
+  .card .details .content h2{
+    font-weight: 300;
+    line-height: 0.5em;
+    }
+    .card .details .content h2 span{
+    color: #e21212;
+    font-size: 0.4rem;
+    }
+}
+
 footer {
     height: 25vh;
     background-color: #333;
@@ -167,8 +177,4 @@ footer {
   footer{  
      font-size: 0.5rem;
     }
-  .card .details .content h2{
-    font-weight: 300;
-    line-height: 0.5em;
-}
 }
