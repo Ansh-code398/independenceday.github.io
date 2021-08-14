@@ -127,7 +127,7 @@
     .card .details .content h2{
         text-align: center;
         font-weight: 350;
-        line-height: 0.5em;
+        line-height: 1;
     }
     .card .details .content h2 span{
        font-size: 0.4em;
