@@ -21,7 +21,14 @@
     height: 33.3vh;
 }
 #ashoka_chakra{
-    width: 25vw;
+    width: 20rem;
+    transition: all 1s;
+}
+
+@media(max-width: 330px){
+    #ashoka_chakra{
+        width: 15rem;
+    }
 }
 
 .down-arrow {
