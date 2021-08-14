@@ -150,19 +150,19 @@ footer {
     height: 25vh;
     background-color: #333;
     color: #ffffff;
+    font-size: 1rem;
 }
 #footer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-/*     font-size: 1rem; */
 }
 
 #footer a{
     color: #dbcdcd;
 }
-@media(max-height: 1180px){
+@media(max-width: 1180px){
   #footer{  
      font-size: 0.5rem;
     }
