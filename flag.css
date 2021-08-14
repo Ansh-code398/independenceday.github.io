@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#orange{
+    background: rgb(255,128,0);
+    height: 33.3vh;
+}
+#white{
+    background: rgb(255,255,255);
+    height: 33.3vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#green{
+    background:rgb(0,128,0);
+    height: 33.3vh;
+}
+#ashoka_chakra{
+    width: 25vw;
+}
+
+.down-arrow {
+    color: white;
+    position: absolute;
+    
+    top: 90vh;
+    left: 48vw;
+}
+.down-arrow img {
+    width: 3vw;
+}
+
+.down-arrow a {
+    color: var(--c2);
+    text-decoration: none;
+}
